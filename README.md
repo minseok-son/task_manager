@@ -1,5 +1,3 @@
-Deadline: TODO
-
 # 🚀 VandyHacks Dev Assessment 2024 🚀
 
 Thank you for expressing interest in the VandyHacks Dev Committee.
@@ -14,27 +12,27 @@ Your product should be a solution to a problem faced by VandyHacks. It could be 
 
 You are not expected to build a functioning app. You only need to implement one or two core features of the app that showcase your coding and problem-solving abilities.
 
-### Help us!
+**Deadline: February 9th at 11:59 PM CST**
 
-Below are **real/similar** problems faced by us for ideas:
+### Project Ideas
 
-- **Presidents 🧑‍🏫:** "We spend a lot of time scheduling interviews with applicants and conducting follow-ups. If only there is a way to make recruitment easier..."
+Below are **real/similar** problems that VandyHacks faces if you need ideas:
 
-- **Content 📹:** "We have conducted a lot of workshops over the years, but they are spread across different platforms. If only there is a centralized place for all our videos..."
+- **Presidents:** "We spend a lot of time scheduling interviews with applicants and conducting follow-ups. If only there is a way to make recruitment easier..."
 
-- **Development 🧑‍💻:** "We want to gamify the work our developers do for the team. If only we had a platform to log tasks and features that each dev completes and deal out points..."
+- **Content:** "We have conducted a lot of workshops over the years, but they are spread across different platforms. If only there is a centralized place for all our videos..."
 
-- **Design 🧑‍🎨:** "We want to help dev create a visually appealing judging schedule that all hackers and judges can collectively look at. If only dev has enough time to implement this..."
+- **Development:** "We want to gamify the work our developers do for the team. If only we had a platform to log tasks and features that each dev completes and deal out points..."
 
-- **Operations 📦:** "We have a lot of physical items to manage, such as t-shirts, stickers, and swag, but it's difficult to keep track of inventory and ensure that everything is delivered on time. If only there is an easy way to manage and track these items..."
+- **Design:** "We want to help dev create a visually appealing judging schedule that all hackers and judges can collectively look at. If only dev has enough time to implement this..."
 
-- **Hacker Experience 🤹:** "We want to make sure all participants have a positive experience during the hackathon, but it's hard to get feedback and know what we can improve on. If only there is a way to easily gather and analyze feedback from the participants..."
+- **Operations:** "We have a lot of physical items to manage, such as t-shirts, stickers, and swag, but it's difficult to keep track of inventory and ensure that everything is delivered on time. If only there is an easy way to manage and track these items..."
 
-- **Marketing 📣:** "We manage our Instagram, Twitter, TikTok page and so it is a little tedious to check our analytics (follower counts) every day. If only there is a centralized place for all our important social media statistics..."
+- **Hacker Experience:** "We want to make sure all participants have a positive experience during the hackathon, but it's hard to get feedback and know what we can improve on. If only there is a way to easily gather and analyze feedback from the participants..."
 
-- **Sponsorship 💰:** "We have a lot of email templates that we use to cold-send potential sponsors, but we don't know which ones are the most effective. If only there is a way to A/B test our email templates..."
+- **Marketing:** "We manage our Instagram, Twitter, TikTok page and so it is a little tedious to check our analytics (follower counts) every day. If only there is a centralized place for all our important social media statistics..."
 
-**You are not limited to these problems.** Feel free to come up with your interpretation of the type of problems that hackathon organizations like VandyHacks might experience!
+- **Sponsorship:** "We have a lot of email templates that we use to cold-send potential sponsors, but we don't know which ones are the most effective. If only there is a way to A/B test our email templates..."
 
 ### What do I need to submit?
 
@@ -42,12 +40,12 @@ Below are **real/similar** problems faced by us for ideas:
 
     - The problem being solve
     - The app and its value proposition
-    - A demo (screenshots/video) of the core features of the app
-    - Any additional features/enhancements there was more time
+    - A demo (screenshots/video)
+    - Additional features/enhancements to implement there was more time
 
 2.  Source code submitted through GitHub
 
-**Note:** You _must_ use git version control to keep track of your progress (a beneficial, crucial practice).
+**Note:** You _must_ use git version control to keep track of your progress.
 
 ### How will I be graded?
 
@@ -55,18 +53,17 @@ You will be graded on:
 
 1. Technical execution and quality of the code
 1. Code Organization & Readability
-   - How well do you structure your code?
-   - Is it easily understood by others?
-1. Code Style
-   - Do you use proper spacing and variable naming?
-   - Do you write comments when appropriate?
+   - Structure
+   - Readability
+   - Proper spacing and variable names
+   - Comments
 1. Good Development Practices
-   - Do you use git to frequently commit your progress along the way?
-   - Is your code well documented?
+   - Commit messages
+   - Code documentation
 1. Programming Language
    - See the Additional Questions section below
 
-### Additional Questions
+### FAQ
 
 **Q: When can I start?**
 
@@ -74,7 +71,7 @@ A: Now!
 
 **Q: When is the deadline?**
 
-A: Deadline: TODO. No further commits will be accepted after that.
+A: Deadline: February 9th at 11:59 PM CST. No further commits will be accepted after that.
 
 **Q: How should I approach this challenge?**
 
@@ -86,11 +83,11 @@ A: This challenge is an opportunity for you to showcase your strengths.
 
 **Q: How much time am I expected to spend on this?**
 
-A: It depends on how efficient you are with your time, but you should not expect to spend more than 8 hours in total. More time spent does not necessarily mean a better score. So, focus on the quality of your code rather than the quantity of features.
+A: You are not expected to spend more than 8 hours in total. More time spent does not necessarily mean a better score. So, focus on the quality of your code rather than the quantity of features.
 
 **Q: Does my app need to function?**
 
-A: No! You are not required to develop a functioning app. You are only required to implement 1-2 **core** features of your app idea. Keep the scope small and concise!
+A: No. Focus on implementing 1-2 **core** features. Keep the scope small and concise.
 
 **Q: What resources can I use?**
 
@@ -112,7 +109,7 @@ A: You can either go with the language you are most comfortable with or take thi
 
 **Q: What should I expect after I completed this challenge?**
 
-A: Look out for an interview from us! Then, depending on your performance, your application, and your interview, we may on with the next steps. You will learn more about this after the interview.
+A: Look out for an interview from us.
 
 **Q: Who do I contact for more help?**
 
