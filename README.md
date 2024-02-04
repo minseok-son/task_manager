@@ -12,7 +12,7 @@ Your product should be a solution to a problem faced by VandyHacks. It could be 
 
 You are not expected to build a functioning app. You only need to implement one or two core features of the app that showcase your coding and problem-solving abilities.
 
-**Deadline: February 10th at 11:59 PM CST**
+**Deadline: February 9th at 11:59 PM CST**
 
 ### Project Ideas
 
