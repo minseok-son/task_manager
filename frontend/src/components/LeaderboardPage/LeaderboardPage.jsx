@@ -1,3 +1,5 @@
+import Rank from "../Rank/Rank.jsx";
+
 function LeaderBoardPage({ leaderboard }) {
     return (
         <div>
@@ -5,7 +7,12 @@ function LeaderBoardPage({ leaderboard }) {
             <hr></hr>
             {leaderboard != null ? (
                 leaderboard.map((user, index) => (
-                    <div key={index}>{user.username}</div>
+                    <Rank
+                        key={index}
+                        username={user.username}
+                        points={user.points}
+                        place={index + 1}
+                    />
                 ))
             ) : (
                 <></>

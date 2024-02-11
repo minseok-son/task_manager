@@ -33,13 +33,13 @@
 }
 
 .sidebar button.createButton {
-    background-color: rgb(17, 199, 255, 1);
+    background-color: rgb(131, 139, 255, 1);
     border-radius: 15px;
     transition: background-color 0.3s ease;
 }
 
 .sidebar button.createButton:hover {
-    background-color: rgb(17, 199, 255, 0.7);
+    background-color: rgb(131, 139, 255, 0.7);
 }
 
 .profilePicture {

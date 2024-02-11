@@ -21,7 +21,7 @@ export const getTasks = async () => {
     }
 };
 
-export const createTask = async (text, score) => {
+export const createTask = async (title, text, score) => {
     try {
         const uuid = crypto.randomUUID();
         const res = await fetch(`${BASE_URL}/tasks`, {
@@ -29,7 +29,12 @@ export const createTask = async (text, score) => {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ id: uuid, info: text, points: score }),
+            body: JSON.stringify({
+                id: uuid,
+                title: title,
+                info: text,
+                points: score,
+            }),
         });
     } catch (error) {
         console.log("Error: " + error);
@@ -37,14 +42,14 @@ export const createTask = async (text, score) => {
     }
 };
 
-export const deleteTask = async (uuid) => {
+export const deleteTask = async (task) => {
     try {
         const res = await fetch(`${BASE_URL}/tasks`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ id: uuid }),
+            body: JSON.stringify({ id: task.id, points: task.points }),
         });
 
         return res.status;

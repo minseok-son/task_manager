@@ -1,25 +1,30 @@
 import styles from "./Task.module.css";
-import { handleDeleteTask } from "../../util/util.js";
+import { useState } from "react";
+import TaskModal from "../TaskModal/TaskModal.jsx";
 
-function Task({ task, onClick }) {
+function Task({ index, task, handleRerender }) {
+    const [isTaskModalOpen, setIsTaskModalOpen] = useState(false);
+
     return (
-        <div
-            className={styles.taskCard}
-            onClick={() => {
-                handleDeleteTask(task), onClick();
-            }}
-        >
-            <div className={styles.taskTitle}>{task.info}</div>
-            <div>{task.points}</div>
-            {/* <button
-                className={styles.button}
+        <>
+            <div
+                className={styles.taskCard}
                 onClick={() => {
-                    handleDeleteTask(task), onClick();
+                    setIsTaskModalOpen(true);
                 }}
             >
-                SELECT
-            </button> */}
-        </div>
+                <div className={styles.taskTitle}>{task.title}</div>
+                <div>Points: {task.points}</div>
+            </div>
+
+            {isTaskModalOpen && (
+                <TaskModal
+                    task={task}
+                    setIsTaskModalOpen={setIsTaskModalOpen}
+                    handleRerender={handleRerender}
+                />
+            )}
+        </>
     );
 }
 

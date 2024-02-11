@@ -14,6 +14,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #fff;
     padding: 20px;
@@ -21,7 +22,17 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 300px;
     color: black;
-    font-weight: 500;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.modalContent .header {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.modalContent .description {
+    margin-bottom: 20px;
 }
 
 .modalContent button.closeButton {
@@ -37,23 +48,7 @@
     transition: background-color 0.3s ease;
 }
 
-.textarea {
-    box-sizing: border-box;
-    width: 240px;
-    height: 50px;
-    background-color: #fff;
-    color: black;
-    margin-bottom: 5px;
-}
-
-.score {
-    border-radius: 15px;
-    background-color: #fff;
-    color: black;
-    margin-bottom: 15px;
-}
-
-.modalContent button.createButton {
+.modalContent button.completeButton {
     border: none;
     background-color: rgb(131, 139, 255, 1);
     border-radius: 7px;
@@ -64,6 +59,6 @@
     font-weight: 700;
 }
 
-.modalContent button.createButton:hover {
+.modalContent button.completeButton:hover {
     background-color: rgb(131, 139, 255, 0.7);
 }
