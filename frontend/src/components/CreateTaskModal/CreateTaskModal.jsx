@@ -37,9 +37,8 @@ function CreateTaskModal({ setIsCreateTaskModalOpen, handleRerender }) {
                 <button
                     className={styles.createButton}
                     onClick={() => {
-                        handleCreateTask(title, text, score);
+                        handleCreateTask(title, text, score, handleRerender);
                         setIsCreateTaskModalOpen(false);
-                        handleRerender();
                     }}
                 >
                     Create

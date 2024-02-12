@@ -11,17 +11,17 @@
 
 .gold {
     border-color: gold;
-    /* Additional gold styles */
+    color: gold;
 }
 
 .silver {
     border-color: silver;
-    /* Additional silver styles */
+    color: silver;
 }
 
 .bronze {
     border-color: #cd7f32;
-    /* Additional bronze styles */
+    color: #cd7f32;
 }
 
 .place {

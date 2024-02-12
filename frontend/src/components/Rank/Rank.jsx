@@ -19,7 +19,7 @@ function Rank({ username, points, place }) {
 
     return (
         <div className={`${styles.rankContainer} ${rankStyle}`}>
-            <div className={styles.place}>{place}</div>
+            <div className={`${styles.place} ${rankStyle}`}>{place}</div>
             <div>
                 <div className={styles.username}>{username}</div>
                 <div className={styles.points}>{points}</div>

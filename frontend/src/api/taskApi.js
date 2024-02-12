@@ -24,7 +24,7 @@ export const getTasks = async () => {
 export const createTask = async (title, text, score) => {
     try {
         const uuid = crypto.randomUUID();
-        const res = await fetch(`${BASE_URL}/tasks`, {
+        await fetch(`${BASE_URL}/tasks`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

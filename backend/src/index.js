@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // mock tasks simulating database
 const mockTasks = [
-    { id: "123", title: "Task 1", info: "Task 1", points: 5000 },
+    { id: "123", title: "Task 1", info: "Task 1", points: 3000 },
     { id: "234", title: "Task 2", info: "Task 2", points: 4000 },
 ];
 

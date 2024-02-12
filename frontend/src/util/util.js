@@ -10,17 +10,19 @@ export const handleGetTasks = async (setTasks) => {
     }
 };
 
-export const handleCreateTask = async (title, text, score) => {
+export const handleCreateTask = async (title, text, score, handleRerender) => {
     try {
         await createTask(title, text, score);
+        handleRerender();
     } catch (error) {
         console.log("Error creating task: ", error);
     }
 };
 
-export const handleDeleteTask = async (task) => {
+export const handleDeleteTask = async (task, handleRerender) => {
     try {
         const statusCode = await deleteTask(task);
+        handleRerender();
     } catch (error) {
         console.log("Error deleting task: ", error);
     }

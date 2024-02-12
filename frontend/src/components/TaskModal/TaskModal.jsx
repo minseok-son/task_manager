@@ -12,8 +12,7 @@ function TaskModal({ task, setIsTaskModalOpen, handleRerender }) {
                     className={styles.completeButton}
                     onClick={() => {
                         setIsTaskModalOpen(false);
-                        handleDeleteTask(task);
-                        handleRerender();
+                        handleDeleteTask(task, handleRerender);
                     }}
                 >
                     Completed
